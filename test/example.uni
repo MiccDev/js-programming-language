@@ -1,0 +1,13 @@
+push num => 10
+
+if num == 10 do
+    
+fin
+
+for i => 15 until 20 do
+
+fin
+
+while i > 0 do
+
+fin
