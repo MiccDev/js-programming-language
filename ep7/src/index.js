@@ -1,10 +1,10 @@
-const Context = require('src/interpreter/Context');
-const Lexer = require('src/lexer/Lexer');
-const Parser = require('src/parser/Parser');
-const Interpreter = require('src/interpreter/Interpreter');
-const SymbolTable = require('src/interpreter/SymbolTable');
-const Number = require('src/interpreter/Number');
-const BuiltInFunction = require('src/interpreter/BuiltInFunction');
+const Context = require('./interpreter/Context');
+const Lexer = require('./lexer/Lexer');
+const Parser = require('./parser/Parser');
+const Interpreter = require('./interpreter/Interpreter');
+const SymbolTable = require('./interpreter/SymbolTable');
+const Number = require('./interpreter/Number');
+const BuiltInFunction = require('./interpreter/BuiltInFunction');
 
 const prompt = require('prompt-sync')({
     sigint: true

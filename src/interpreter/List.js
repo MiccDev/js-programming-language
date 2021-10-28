@@ -1,4 +1,4 @@
-const Value = require('src/interpreter/Value');
+const Value = require('./Value');
 
 module.exports = class List extends Value {
     /**

@@ -1,5 +1,5 @@
-const Value = require("src/interpreter/Value");
-const Number = require('src/interpreter/Number');
+const Value = require("./Value");
+const Number = require('./Number');
 
 module.exports = class String extends Value {
     /**

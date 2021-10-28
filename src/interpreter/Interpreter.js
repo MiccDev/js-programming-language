@@ -1,4 +1,4 @@
-const Node = require('src/parser/nodes/Node');
+const Node = require('../parser/nodes/Node');
 const {
     UnaryOpNode,
     BinOpNode,
@@ -9,17 +9,17 @@ const {
     FuncDefNode,
     CallNode,
     StringNode
-} = require('src/parser/nodes');
-const RTResult = require('src/interpreter/RTResult');
-const { getattr } = require('src/utils');
-const Context = require('src/interpreter/Context');
-const { TokenTypes } = require('src/lexer/Token');
-const { RTError, UniformError } = require('src/errors');
+} = require('../parser/nodes');
+const RTResult = require('./RTResult');
+const { getattr } = require('../utils');
+const Context = require('./Context');
+const { TokenTypes } = require('../lexer/Token');
+const { RTError, UniformError } = require('../errors');
 
-const Number = require('src/interpreter/Number');
-const Function = require('src/interpreter/Function');
-const String = require('src/interpreter/String');
-const List = require('src/interpreter/List');
+const Number = require('./Number');
+const Function = require('./Function');
+const String = require('./String');
+const List = require('./List');
 
 module.exports = class Interpreter {
     constructor() {}

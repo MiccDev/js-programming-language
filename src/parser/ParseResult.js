@@ -1,5 +1,5 @@
-const { UniformError } = require('src/errors');
-const Node = require('src/parser/nodes/Node');
+const { UniformError } = require('../errors');
+const Node = require('./nodes/Node');
 
 module.exports = class ParseResult {
     constructor() {

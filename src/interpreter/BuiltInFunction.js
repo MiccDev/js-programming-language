@@ -2,12 +2,12 @@ const prompt = require('prompt-sync')({
     sigint: true
 });
 
-const RTResult = require("src/interpreter/RTResult");
-const BaseFunction = require("src/interpreter/BaseFunction");
-const { getattr } = require("src/utils");
-const Context = require("src/interpreter/Context");
-const Number = require('src/interpreter/Number');
-const String = require("src/interpreter/String");
+const RTResult = require("./RTResult");
+const BaseFunction = require("./BaseFunction");
+const { getattr } = require("../utils");
+const Context = require("./Context");
+const Number = require('./Number');
+const String = require("./String");
 
 module.exports = class BuiltInFunction extends BaseFunction {
 

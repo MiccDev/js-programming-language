@@ -1,4 +1,4 @@
-const Position = require('src/lexer/Position');
+const Position = require('./lexer/Position');
 
 /** 
  * @param {String} text 

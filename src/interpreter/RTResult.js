@@ -1,5 +1,5 @@
-const { UniformError } = require("src/errors");
-const Value = require("src/interpreter/Value");
+const { UniformError } = require("../errors");
+const Value = require("./Value");
 
 module.exports = class RTResult {
     constructor() {

@@ -1,6 +1,6 @@
-const { RTError } = require('src/errors');
-const Position = require('src/lexer/Position');
-const Context = require('src/interpreter/Context');
+const { RTError } = require('../errors');
+const Position = require('../lexer/Position');
+const Context = require('./Context');
 
 module.exports = class Value {
     constructor() {

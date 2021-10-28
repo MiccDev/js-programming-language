@@ -1,4 +1,4 @@
-const Position = require('src/lexer/Position');
+const Position = require('./Position');
 
 module.exports.TokenTypes = Object.freeze({
     INT: "INT", // 1

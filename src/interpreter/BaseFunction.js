@@ -1,9 +1,9 @@
-const { RTError } = require("src/errors");
-const Value = require("src/interpreter/Value");
-const RTResult = require("src/interpreter/RTResult");
-const Interpreter = require("src/interpreter/Interpreter");
-const Context = require("src/interpreter/Context");
-const SymbolTable = require('src/interpreter/SymbolTable');
+const { RTError } = require("../errors");
+const Value = require("./Value");
+const RTResult = require("./RTResult");
+const Interpreter = require("./Interpreter");
+const Context = require("./Context");
+const SymbolTable = require('./SymbolTable');
 
 module.exports = class BaseFunction extends Value {
     /**

@@ -1,5 +1,5 @@
-const { RTError } = require("src/errors");
-const Value = require("src/interpreter/Value");
+const { RTError } = require("../errors");
+const Value = require("./Value");
 
 module.exports = class Number extends Value {
 

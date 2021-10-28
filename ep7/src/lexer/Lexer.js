@@ -1,6 +1,6 @@
-const Positon = require('src/lexer/Position');
-const { constants, Token, TokenTypes } = require('src/lexer/Token');
-const { IllegalCharError, ExpectedCharError } = require('src/errors');
+const Positon = require('./Position');
+const { constants, Token, TokenTypes } = require('./Token');
+const { IllegalCharError, ExpectedCharError } = require('../errors/index');
 
 module.exports = class Lexer {
     /**

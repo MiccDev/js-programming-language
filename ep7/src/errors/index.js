@@ -1,6 +1,6 @@
-const Position = require('src/lexer/Position');
-const Context = require('src/interpreter/Context');
-const { stringWithArrows } = require('src/utils');
+const Position = require('../lexer/Position');
+const Context = require('../interpreter/Context');
+const { stringWithArrows } = require('../utils');
 
 module.exports.UniformError = class UniformError {
     /**

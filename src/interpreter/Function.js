@@ -1,5 +1,5 @@
-const RTResult = require("src/interpreter/RTResult");
-const BaseFunction = require("src/interpreter/BaseFunction");
+const RTResult = require("./RTResult");
+const BaseFunction = require("./BaseFunction");
 
 module.exports = class Function extends BaseFunction {
     /**

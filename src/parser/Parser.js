@@ -1,6 +1,6 @@
-const { InvalidSyntaxError } = require('src/errors');
-const { TokenTypes, Token } = require('src/lexer/Token');
-const ParseResult = require("src/parser/ParseResult");
+const { InvalidSyntaxError } = require('../errors');
+const { TokenTypes, Token } = require('../lexer/Token');
+const ParseResult = require("./ParseResult");
 const {
     UnaryOpNode,
     BinOpNode,
@@ -15,7 +15,7 @@ const {
     StringNode,
     ListNode,
     VarReAssignNode
-} = require('src/parser/nodes');
+} = require('./nodes');
 
 Array.prototype.extend = function(otherArray) {
     otherArray.forEach((v) => { this.push(v) }, this);
