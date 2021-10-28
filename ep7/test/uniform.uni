@@ -1,0 +1,10 @@
+push tokens => [];
+
+define makeTokens(data)
+    tokens
+fin
+
+while true do
+    push data => capture("uniform >");
+    makeTokens(data);
+fin

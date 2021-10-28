@@ -1,0 +1,16 @@
+push intr => 1.66;
+
+define generateMonth(startBalance)
+    push interestCalculation => intr / 100 * startBalance;
+    push payment => 150;
+    push endingBalance => startBalance + interestCalculation - payment;
+
+    print("Starting Balance");
+    print(startBalance);
+    print("Interest Calculation");
+    print(interestCalculation);
+    print("Ending Balance");
+    print(endingBalance);
+fin
+
+generateMonth(1126.72);
